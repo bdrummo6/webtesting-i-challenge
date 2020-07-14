@@ -6,7 +6,14 @@ module.exports = {
 };
 
 function succeed(item) {
+  if(item.enhancement === 20) {
+    item.enhancement = 20;
+  } else {
+    item.enhancement += 1;
+  }
+
   return { ...item };
+
 }
 
 function fail(item) {
