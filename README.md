@@ -77,8 +77,10 @@ The following sections list information provided by the client about `items` and
 
 This section is **optional** and not counted towards MVP. Start working on it after you're done with the main assignment.
 
-- Add a `get()` method to the `enhancer` object that takes an `item` and **returns a new item** with the `name` property modified according to the following rules:
-  - if the enhancement level is 0, the the name is not modified.
-  - if the enhancement level is greater than 0, change the name to include the enhancement level, preceded by a plus sign ( + ), between square brackets before the item's name. Example: the name of a "Iron Sword" enhanced to 7 would be "[+7] Iron Sword".
+- [X] Add a `get()` method to the `enhancer` object that takes an `item` and **returns a new item** with the `name` property modified according to
+ the following rules:
+  - [X] if the enhancement level is 0, the the name is not modified.
+  - [X] if the enhancement level is greater than 0, change the name to include the enhancement level, preceded by a plus sign ( + ), between square
+   brackets before the item's name. Example: the name of a "Iron Sword" enhanced to 7 would be "[+7] Iron Sword".
 - Design and build a Web Application to test the enhancing module you implemented for the MVP.
 - Work on [this repository for extra practice testing JavaScript Functions](https://github.com/LambdaSchool/Testing).
