@@ -1,5 +1,4 @@
 const enhancer = require('./enhancer.js');
-// test away!
 
 // Object used for initial testing of each function
 const item = {
