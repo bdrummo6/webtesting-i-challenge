@@ -7,7 +7,7 @@ const item = {
 	durability: 62
 };
 
-describe('enhancer unit tests', () => {
+describe('enhancer.js function tests', () => {
 	// Tests for the repair function
 	describe('repair() function test', () => {
 		// Calling the repair() function should result in the item's durability to be 100 and enhancement should remain 12
